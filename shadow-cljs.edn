@@ -1,0 +1,7 @@
+{:deps             true
+ :compiler-options {:output-feature-set :es6
+                    :infer-externs      true
+                    :pretty-print       true}
+ :builds           {:app {:target    :node-script
+                          :output-to "target/main.js"
+                          :main      radio.main/init}}}

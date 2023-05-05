@@ -1,0 +1,19 @@
+{:token         ""
+ :server-name   ""
+ :client-id     ""
+ :voice         ""
+ :text          ""
+ :guild         ""
+ :stream        "icecast-uri"
+ :queue         "playlist-uri"
+ :collaboration "playlist-collab-uri"
+ :port          9000
+ :opus?         true
+ :spotify       {:id            ""
+                 :secret        ""
+                 :refresh-token ""
+                 :playlist      ""
+                 :device        ""}
+ :commands      [:find :play :add :random :skip :stop :playlist :album :clear :np :playlist-shuffle :q :fix :join :leave :info]
+ :intents       [:MessageContent :GuildMessages :Guilds :DirectMessages :DirectMessageTyping :GuildVoiceStates]
+ :partials      [:channel]}
